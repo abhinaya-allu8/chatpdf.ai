@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400&display=swap');
+
+body {
+    font-family: 'Comic Neue', cursive;
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFFFF; /* Change text color to white for better contrast */
+    background-color: #000000; /* Set background color to black */
+}
+
+h1, h2, h3, h4, h5, h6, p, div, span {
+    font-family: 'Comic Neue', cursive !important;
+    color: #FFFFFF; /* Change text color to white for better contrast */
+}
+
+[data-testid="stAppViewContainer"] {
+    background-color: #000000; /* Set the background color of the main app container to black */
+}
+
+[data-testid="stHeader"] {
+    background-color: #000000; /* Set the background color of the header to black */
+}
+
+.stMarkdown, .stTextInput, .stButton, .stFileUploader {
+    color: #FFFFFF; /* Ensure text color is white for readability */
+}
+
+.stTextInput input {
+    background-color: #333333;
+    color: #FFFFFF;
+}
+
+.stButton button {
+    background-color: #4CAF50; /* Green background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 10px 24px; /* Add some padding */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make the link look like a button */
+    font-size: 16px; /* Increase font size */
+    margin: 4px 2px; /* Add some margin */
+    cursor: pointer; /* Add a pointer on hover */
+    border-radius: 12px; /* Rounded corners */
+}
+
+.stButton button:hover {
+    background-color: #45a049; /* Darker green */
+}
+
+.stFileUploader label {
+    color: #FFFFFF; /* White text */
+}
+
+.stFileUploader div {
+    background-color: #333333; /* Dark background */
+    border-radius: 8px; /* Rounded corners */
+    padding: 10px; /* Add some padding */
+}
+
+.stMarkdown h1 {
+    color: #FFD700; /* Gold color for headers */
+}
+
+.stMarkdown h2 {
+    color: #ADFF2F; /* Green yellow color for sub-headers */
+}
+
+.stMarkdown p {
+    font-size: 18px; /* Slightly larger font size for paragraphs */
+}
+
+.stSpinner {
+    color: #FFD700; /* Gold color for spinner */
+}
